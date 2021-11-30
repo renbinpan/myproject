@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import os
 os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 from torch.utils.tensorboard import SummaryWriter
-
+#git
 train_data=np.array(train_data,dtype=np.float32)
 
 x=torch.tensor(train_data[:,:2])
